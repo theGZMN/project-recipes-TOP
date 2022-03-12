@@ -1,2 +1,2 @@
-# odin-recipes
+# project-recipes
 A project called "recipes" from The Odin Project
