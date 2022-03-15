@@ -1,2 +1,16 @@
 /* Stylesheet */
 
+* {
+    background-color: gold;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    color: black;
+}
