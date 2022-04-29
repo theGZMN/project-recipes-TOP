@@ -1,11 +1,17 @@
+* {
+    font-size: 16px;
+}
+
 html.main {
     background-color: #d1ad8b;
-    font-size: 16px;
 }
 
 html.jollof {
     background-color: #ef6d00;
-    font-size: 16px;
+}
+
+html.suya {
+    background-color: #ae5102;
 }
 
 body {
@@ -79,6 +85,10 @@ a:active {
 
 a:active.jollof {
     color: #ffd700;
+}
+
+a:active.suya {
+    color: #c7c91c;
 }
 
 footer {
