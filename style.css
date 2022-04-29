@@ -1,5 +1,10 @@
-html {
+html.main {
     background-color: #d1ad8b;
+    font-size: 16px;
+}
+
+html.jollof {
+    background-color: #ef6d00;
     font-size: 16px;
 }
 
@@ -28,6 +33,12 @@ nav {
     align-items: center;
 }
 
+.main-article {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+}
+
 .hero-main {
     display: flex;
     flex-direction: column;
@@ -44,8 +55,12 @@ ul {
     margin: 0 0 0 16px;
 }
 
+ol {
+    padding: 0;
+    margin: 0 0 0 16px;
+}
+
 li {
-    list-style-type: circle;
     margin: 4px 0;
 }
 
@@ -62,8 +77,16 @@ a:active {
     color: #dc143c;
 }
 
+a:active.jollof {
+    color: #ffd700;
+}
+
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer.recipes {
+    justify-content: space-evenly;
 }
