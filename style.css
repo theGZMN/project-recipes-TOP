@@ -42,6 +42,11 @@ html.pottage {
     background-color: #f59800;
 }
 
+html.zobo {
+    background-color: #3c0405;
+    color: #f5deb3;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -76,7 +81,7 @@ nav {
 .hero-main {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 6px;
 }
 
 img {
@@ -102,8 +107,17 @@ a {
     color: #000000;
 }
 
+a.zobo {
+    color: #f5deb3;
+}
+
 a:hover {
     color: #f5f5dc;
+    text-decoration: none;
+}
+
+a:hover.zobo {
+    color: yellowgreen;
     text-decoration: none;
 }
 
@@ -121,6 +135,10 @@ a:active.suya {
 
 a:active.pottage {
     color: #0d5e18;
+}
+
+a:active.zobo {
+    color: #ffb211;
 }
 
 footer {
